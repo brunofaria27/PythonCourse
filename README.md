@@ -1,5 +1,5 @@
-# Curso Java Udemy
-Repositório para armazenar tudo sobre o Curso de Java feito na Udemy.
+# Curso Python Udemy
+Repositório para armazenar tudo sobre o Curso de Python feito na Udemy.
 
 --------------------------
 ### Ferramentas utilizadas
