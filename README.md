@@ -8,4 +8,4 @@ Repositório para armazenar tudo sobre o Curso de Python.
 - ![Badge](https://img.shields.io/static/v1?label=Versão&message=0.1&color=red&style=flat)
 
 ### Diretórios
-- `Configurando Ambiente:` Iniciando o desenvolvimento na linguagem de programação Python, configuração do ambiente do VsCode e configuração do Sistema.
+
