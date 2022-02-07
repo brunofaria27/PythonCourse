@@ -41,3 +41,14 @@ for num in range(10, -1, -2):
     print(num)
 
 print("----------------------")
+
+"""
+Podemos inclusive construir objetos em cima de range:
+"""
+lista = list(range(10))
+tupla = tuple(range(10))
+conjunto = set(range(10)) # Será apresentado depois, mas é o conjunto matemático
+
+print(lista)
+print(tupla)
+print(conjunto)

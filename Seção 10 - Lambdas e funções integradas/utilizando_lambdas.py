@@ -1,5 +1,5 @@
 """
-Lambdas - Funções sem nome (anônimas)
+Lambdas - Funções anônimas (sem nome)
 """
 # Expressão lambda
 lambda x: 3 * x + 1 # Recebe x e retorna (3 * x + 1)

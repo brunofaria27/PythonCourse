@@ -2,10 +2,10 @@
 Loop While
 
 Forma geral:
-while expressão_booleana:
+while proposição: (while expressão_booleana is True)
     - Execução do loop
 
-O loop while será executado enquanto a expressão_booleana for verdadeira
+O loop while será executado enquanto a proposição for verdadeira
 Exemplo: 
 num = 5
 

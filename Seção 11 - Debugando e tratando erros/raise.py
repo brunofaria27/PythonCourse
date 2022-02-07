@@ -2,6 +2,7 @@
 Levantando os próprios erros com raise
 
 OBS: raise não é uma função, mas sim uma palavra reservada.
+- raise ascende ("executa") uma exceção quando é chamado -> ótimo para tratamento de erros
 - Nada é executado depois do raise
 """
 # Exemplo real:

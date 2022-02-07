@@ -1,8 +1,7 @@
 """
 Documentando funções com Docstrings
 
-OBS: Podemos ter acesso à documentação de uma função em Python utilizando a propriedade especial __doc__
-help.__doc__ -> Exemplo
+OBS: Podemos ter acesso à documentação de uma função em Python utilizando o atributo __doc__ ou usando help()
 """
 # Utilizando
 def diz_oi():
@@ -17,3 +16,10 @@ def exponencial(numero, potencia=2):
     :return: Retorna o exponencial do 'numero' por 'potencia'
     """
     return numero ** potencia
+
+
+print(diz_oi.__doc__)
+print(exponencial.__doc__)
+
+# help(diz_oi)
+# help(exponencial)

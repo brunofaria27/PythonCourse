@@ -15,7 +15,7 @@ class Contador:
     def __next__(self):
         if self.menor < self.maior:
             numero = self.maior
-            self.menor = self.menor + 1
+            self.menor += 1  # redução de self.menor = self.menor + 1
             return numero
         raise StopIteration
 

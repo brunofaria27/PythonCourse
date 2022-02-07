@@ -18,14 +18,14 @@ Diferença entre conjuntos (Sets) e Mapas (Dicionários) em Python:
     - Um conjunto tem apenas valor
 """
 # Definindo conjuntos em Python:
-# Forma 1:
+# Forma 1 (com construtor):
 s = set({1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 8, 7}) # Repare que temos valores repetidos
 print(s)
 # Forma 2 (Mais comum):
 s = {1, 2, 3, 4, 4, 5, 2}
 print(s)
 
-# Podemos verificar se determinado elemento está contido no conjunto
+# Podemos verificar se determinado elemento está contido no conjunto (podemos usar esse método para qualquer tipo de coleção)
 if 3 in s:
     print("Tem o 3")
 else:
@@ -34,10 +34,13 @@ else:
 # Importante lembrar que além de não termos valores duplicados não temos ordem
 lista = [99, 2, 34, 23, 12, 1, 44, 5, 2 ,34] # Aceita valor duplicado
 print(f'Lista: {lista} com {len(lista)} elementos.')
+
 tupla = (99, 2, 34, 23, 12, 1, 44, 5, 2, 34) # Aceita valor duplicado
 print(f'Tupla: {tupla} com {len(tupla)} elementos.')
+
 dicionario = {}.fromkeys([99, 2, 34, 23, 12, 1, 44, 5, 2 ,34], 'dict') # Não aceita chaves duplicadas
 print(f'Dicionario: {dicionario} com {len(dicionario)} elementos.')
+
 conjunto = {99, 2, 34, 23, 12, 1, 44, 5, 2, 34} # Não aceita valor duplicado
 print(f'Conjunto: {conjunto} com {len(conjunto)} elementos.')
 
@@ -86,6 +89,7 @@ print(s1)
 # Temos dois conjuntos: Estudantes Python, Estudantes Java
 estudantes_python = {'Marcos', 'Patricia', 'Ellen', 'Pedro', 'Julia', 'Guilherme'}
 estudantes_java = {'Fernando', 'Gustavo', 'Julia', 'Ana', 'Patricia'}
+
 # Veja que alguns alunos estudam Java e Python
 # Precisamos criar um conjunto com nomes de estudantes unicos
 # Forma 1 - Usando UNION
@@ -94,6 +98,7 @@ print(unicos1)
 # Forma 2 - Utilizando o caractere pipe |
 unicos2 = estudantes_java | estudantes_python
 print(unicos2)
+
 # Gerar um conjunto de estudantes que estão em ambos os cursos 
 # Forma 1 - Utilizando Intersection
 ambos1 = estudantes_python.intersection(estudantes_java)
@@ -101,16 +106,19 @@ print(ambos1)
 # Forma 2 - Utilizando o &
 ambos2 = estudantes_python & estudantes_java
 print(ambos2)
-# Gerar um conjunto de estudantes que não estão em 2 cursos ao mesmo tempo
+
+# Gerar um conjunto dos estudantes APENAS de python
+# Forma 1 - Usando difference:
 so_python = estudantes_python.difference(estudantes_java)
 print(so_python)
-so_java = estudantes_java.difference(estudantes_python)
-print(so_java)
+# Forma 2 - Usando -
+so_python = estudantes_python - estudantes_java
+print(so_python)
 
 # Soma*, procurar valor max* e min*, tamanho
 # *Se os valores forem todos inteiros ou reais
-s2 = {1, 2, 3, 4, 5, 6}
-print(sum(s2)) # soma
-print(max(s2)) # máximo valor
-print(min(s2)) # minimo valor
-print(len(s2))          # tamanho do dicionario
+s2 = {2, 1, 4, 6, 5, 3}
+print(sum(s2))  # soma
+print(max(s2))  # máximo valor
+print(min(s2))  # minimo valor
+print(len(s2))  # tamanho do dicionario
