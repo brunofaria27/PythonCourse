@@ -8,6 +8,7 @@ Outras informações:
 - Geradores podem ser criados com funções geradoras
 - Funções geradoras utilizam a palavra reservada yield
 - Generators podem ser criados com Expressões Geradoras
+- Generators geram lazy evaluation, ou seja, seus itens são gerados conforme o programa pede, o que é diferente de list comprehension, por exemplo, que gera toda uma lista no momento é chamada
 
 Diferenças entre funções e generator functions
 -------------------------------------------------------------------------------------------------------------

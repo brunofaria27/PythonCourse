@@ -19,6 +19,3 @@ print(listas[1][2])
 for lista in listas:
     for num in lista:
         print(num)
-
-# List Comprehension
-[[print(valor) for valor in lista] for lista in listas]

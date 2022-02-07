@@ -3,10 +3,10 @@ Funções com parâmetro padrão
 
 - Função onde a passagem de parametro é opcional
 """
+
 # Função com um parametro opcional, no caso o potencia recebe um numero, caso o usuario nao passe o valor do mesmo
-"""
-OBS: O parametros default, devem sempre estar no final da declaração
-"""
+# OBS: O parametros default devem sempre estar no final da declaração
+
 def exponencial(numero, potencia = 2):
     return numero ** potencia
 
@@ -41,7 +41,7 @@ def subtracao(num1, num2):
 print(mat(2, 3))
 print(mat(2, 3, subtracao))
 
-# ATENÇÃO COM VARIAVEIS GLOBAIS, se puder evitar, evite!
+# ATENÇÃO COM VARIAVEIS GLOBAIS, se puder evitar, as evite, pois demoram mais para ser chamadas que variáveis locais ou passadas como parâmetro!
 total = 0
 def incrementa():
     global total # temos que inicializar a variavel no local -> global: informa que queremos utilizar a variavel global

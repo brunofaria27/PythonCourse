@@ -1,7 +1,7 @@
 """
 Else / Finally / Try / Except
 """
-# Executando sempre que não ocorrer o erro
+# else: executado sempre que não ocorrer o erro
 try:
     num = int(input('Informe um número: '))
 except ValueError:
@@ -9,7 +9,7 @@ except ValueError:
 else:
     print(f'Você digitou {num}')
 
-# Finally
+# Finally: sempre executado. Independente se houver ou não a exception
 try:
     num = int(input('Informe um número: '))
 except ValueError:
@@ -19,5 +19,5 @@ else:
 finally:
     print("Sempre sou executado.")
 
-# OBS: O bloco finally é sempre executado. Independente se houver ou não a exception
-# O finally e geralmente utilizado para fechar ou desalocar recursos, banco de dados, por exemplo. 
+
+#OBS: O finally é geralmente utilizado para fechar ou desalocar recursos, banco de dados, por exemplo. 

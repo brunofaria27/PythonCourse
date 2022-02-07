@@ -1,12 +1,12 @@
 """
 Entendendo o *args
 
-- O parametro *args é um parametro qualquer. Isso significa que voce poderá chamar de qualquer coisa, desde que começe com *
+- O parametro *args é um parametro qualquer. Isso significa que voce poderá chamar de qualquer coisa, desde que comece com *
 Exemplo: 
 Podemos colocar *xis, mas a comunidade decidiu utilizar *args
 
 Mas o que é o *args?
-- O parâmetro *args é utilizado em um função, coloca os valores extras informados como entrada em uma tupla. Então desde já lembre-se que tuplas são imutáveis.
+- O parâmetro *args é utilizado em um função, coloca os valores extras informados como entrada em uma tupla. Então, lembre-se desde já que tuplas são imutáveis.
 - O asterisco serve para informar ao Python que estamos passando uma coleção de dados, por isso ele sabe que precisa desempacotar estes antes.
 """
 def soma_todos_numeros(num1, num2, num3):

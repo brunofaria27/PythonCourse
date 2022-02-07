@@ -11,7 +11,7 @@ print(os.getcwd())
 # para mudar o diretório podemos usar chdir()
 os.chdir('..') # volta uma pasta
 
-# podemos checar se um diretório e relativo ou absoluto -> os.path.isabs('directory')
+# podemos checar se o path (caminho) para um diretório é relativo ou absoluto -> os.path.isabs('directory')
 # podemos indentificar o sistema operacional com o módulo os
 print(os.name) # posix (Linux e Mac), nt (Windows)
 

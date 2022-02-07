@@ -11,7 +11,7 @@ Um dado é considerado tipo String quando:
 nome = "Bruno Rodrigues Faria"
 print(nome.split())
 
-print(nome[0:5])    # Slice de String
+print(nome[:5])     # Slice de String (nome[:5] é igual a nome[0:5])
 print(nome[6:15])   # Slice de String
 print(nome[16:21])  # Slice de String
 
@@ -20,7 +20,7 @@ print(nome[16:21])  # Slice de String
 print(nome.split()[2])
 
 """
-[::-1] -> Começe do primeiro elemento, vá até o último elemento e inverta
+[::-1] -> Comece do primeiro elemento, vá até o último elemento e inverta
 """
 print(nome[::-1])
 

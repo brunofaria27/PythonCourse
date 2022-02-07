@@ -7,15 +7,15 @@ nome = 'Geek University'
 lista = [1, 2, 4, 5, 7, 12, 20]
 numeros = range(1, 10)  # Temos que transformar em uma lista
 
-# Primeiro exemplo de for -> para cada letra (posição) dentro de nome imprima a posição
+# Primeiro exemplo de for: para cada letra (posição) dentro de nome imprima a posição
 for letra in nome:
     print(letra)
 
-# Segundo exemplo de for (Iterando sobre uma lista)
+# Segundo exemplo de for: (Iterando sobre uma lista)
 for numero in lista:
     print(numero)
 
-# Terceiro exemplo de for (Iterando sobre um range)
+# Terceiro exemplo de for: (Iterando sobre um range)
 """
 Range(valor_inicial, valor_final)
 
