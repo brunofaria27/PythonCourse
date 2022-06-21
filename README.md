@@ -9,5 +9,3 @@ Repositório para armazenar tudo sobre o Curso de Python.
 
 ### Diretórios
 `Exercicios:` Os exercícios não serão feitos totalmente, pois é mais interessante para pessoas que estão iniciando no mundo da programação agora. Os exercícios feitos em Python serão armazenados no seguinte repositório [Hack Rank Exercices](https://github.com/brunofaria27/HackerRankExercices)
-
-Falta completar! (OO)
